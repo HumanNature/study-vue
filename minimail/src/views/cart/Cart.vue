@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
 .nav-bar {
-  background-color: pink;
+  background-color: #FC86BF;
   color: #fff;
 }
 

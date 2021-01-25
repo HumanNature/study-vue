@@ -200,7 +200,7 @@ export default {
   position: relative;
 }
 .home-nav {
-  background-color: pink;
+  background-color: #FC86BF;
   font-weight: bold;
   position: relative;
   color: #fff;

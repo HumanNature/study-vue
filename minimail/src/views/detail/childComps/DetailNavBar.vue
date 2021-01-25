@@ -61,6 +61,6 @@ margin-left: 0.5rem;
   flex: 1;
 }
 .active {
-  color: pink;
+  color: #FC86BF;
 }
 </style>

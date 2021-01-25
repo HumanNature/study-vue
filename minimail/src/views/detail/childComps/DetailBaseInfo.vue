@@ -65,7 +65,7 @@ export default {
   margin-top: 1rem;
 }
 .n-price {
-  color: pink;
+  color: #FC86BF;
   font-size: 18px;
 }
 .o-price {
@@ -75,7 +75,7 @@ export default {
 }
 .discount {
   text-align: center;
-  background-color: pink;
+  background-color: #FC86BF;
   color: #fff;
   border-radius: 8px;
   font-size: 12px;

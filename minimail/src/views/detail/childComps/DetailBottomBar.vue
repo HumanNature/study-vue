@@ -64,7 +64,7 @@ export default {
   color: #000;
 }
 .buy {
-  background-color: pink;
+  background-color: #FC86BF;
   color: #fff;
   font-size: 16px;
 }
