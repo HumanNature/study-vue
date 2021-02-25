@@ -1,4 +1,4 @@
-# minimail
+# mallapp
 
 ## Project setup
 ```

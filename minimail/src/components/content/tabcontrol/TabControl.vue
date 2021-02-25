@@ -49,8 +49,6 @@ export default {
 }
 .tab-control-item {
   flex: 1;
-  
-
 }
 .tab-control-item span {
   padding: 2px;
@@ -61,8 +59,4 @@ export default {
 .active span {
   border-bottom: 3px solid pink;
 }
-
-
-
-
 </style>

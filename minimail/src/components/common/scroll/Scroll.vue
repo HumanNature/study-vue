@@ -73,19 +73,12 @@
           click: this.click,
           pullUpLoad: this.pullUpLoad
         })
-
-        
-
-        
       },
       refresh() {
         this.scroll && this.scroll.refresh && this.scroll.refresh()
-        // console.log('----');
       },
       finishedPullUp() {
         this.scroll && this.scroll.finishPullUp && this.scroll.finishPullUp()
-
-        // this.scroll && this.scroll.refresh && this.scroll.refresh()
       },
       scrollTo(x, y, time=100) {
         this.scroll && this.scroll.scrollTo && this.scroll.scrollTo(x, y, time)

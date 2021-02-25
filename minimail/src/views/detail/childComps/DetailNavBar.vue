@@ -1,10 +1,10 @@
 <template>
   <div class="DetailNavBar">
-      <!-- 导航栏 -->
+    <!-- 导航栏 -->
     <nav-bar>
-        <div slot="left" class="back" @click="BackClick">
-            <img src="~assets/img/common/back.svg" alt="">
-        </div>
+      <div slot="left" class="back" @click="BackClick">
+        <img src="~assets/img/common/back.svg" alt="" />
+      </div>
       <div class="title" slot="center">
         <div
           v-for="(item, index) in titles"
@@ -17,13 +17,9 @@
         </div>
       </div>
     </nav-bar>
-    
   </div>
 </template>
 <script>
-
-
-
 import NavBar from "../../../components/common/navbar/NavBar.vue";
 export default {
   name: "DetailNavBar",
@@ -37,21 +33,23 @@ export default {
     };
   },
   methods: {
-      titleClick(index){
-          this.currentIndex = index
-          this.$emit('titleClick',index)
-      },
-      BackClick(){
-          this.$router.back()
-      }
+    titleClick(index) {
+      this.currentIndex = index;
+      this.$emit("titleClick", index);
+    },
+    BackClick() {
+      this.$router.back();
+    },
   },
 };
 </script>
 
 <style scoped>
 /* 导航栏 */
-.back img{
-margin-left: 0.5rem;
+.back img {
+  margin-left: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 .title {
   font-size: 13px;
@@ -61,6 +59,6 @@ margin-left: 0.5rem;
   flex: 1;
 }
 .active {
-  color: #FC86BF;
+  color: #fc86bf;
 }
 </style>

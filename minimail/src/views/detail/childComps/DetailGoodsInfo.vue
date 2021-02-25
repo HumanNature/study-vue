@@ -39,7 +39,6 @@ export default {
   },
   methods: {
     imgLoad() {
-      // console.log(counter);
       if (++this.counter === this.imagesLength) {
         this.$emit("imageLoad");
         // refresh()

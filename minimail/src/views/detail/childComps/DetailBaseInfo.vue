@@ -21,17 +21,6 @@
         </span>
       </div>
     </div>
-    <!-- <div class="info-service">
-      <span class="info-service-item" v-for="index in goods.services.length-1" :key="index">
-        <img :src="goods.services[index-1].icon">
-        <span>{{goods.services[index-1].name}}</span>
-      </span>
-    </div> -->
-    <!-- <div class="services">
-      <span>退货补运费</span>
-      <span>全国包邮</span>
-      <span>7天无理由退货</span>
-    </div> -->
   </div>
 </template>
 

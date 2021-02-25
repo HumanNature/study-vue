@@ -9,9 +9,6 @@
         name: "TarBar",
     }
 </script>
-
-
-
 <style scoped>
   #tab-bar {
     display: flex;

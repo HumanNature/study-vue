@@ -2,7 +2,6 @@
   <div class="goods">
       <goods-list-item v-for="(item,index) in goods" :key="index" :goodsItem="item" />
     <!-- {{ goods }} -->
-    
   </div>
 </template>
 
@@ -28,5 +27,6 @@ export default {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        /* justify-content: space-around; */
     }
 </style>

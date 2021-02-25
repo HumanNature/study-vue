@@ -4,8 +4,6 @@
       <div class="btnclick" @click="checkClick()">
         <check-button :isChecked="itemInfo.checked"></check-button>
       </div>
-
-      <!-- <check-button></check-button> -->
     </div>
     <div class="img">
       <img :src="itemInfo.image" alt="" />

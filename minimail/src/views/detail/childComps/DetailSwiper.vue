@@ -30,10 +30,4 @@ export default {
   height: 25rem;
   overflow: hidden;
 }
-/* .img {
-  height: 25rem;
-  object-fit: fill;
-  object-fit: contain;
-  object-fit: scale-down;
-} */
 </style>
