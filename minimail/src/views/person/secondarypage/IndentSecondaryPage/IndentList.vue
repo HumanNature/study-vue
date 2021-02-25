@@ -34,7 +34,6 @@ export default {
       this.$router.back();
     },
     tabClick(index) {
-      // console.log(index);
       switch (index) {
         case 0:
           this.currentType = "A";
